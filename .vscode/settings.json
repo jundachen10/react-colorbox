@@ -1,0 +1,9 @@
+{
+    "editor.fontFamily": "SF Mono",
+    "editor.cursorStyle": "line-thin",
+    "editor.codeLensFontFamily": "SF Mono",
+    "editor.fontSize": 13,
+    "editor.inlayHints.fontFamily": "SF Mono",
+    "scm.inputFontFamily": "SF Mono",
+    "debug.console.fontFamily": "SF Mono"
+}

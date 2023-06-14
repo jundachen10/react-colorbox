@@ -1,16 +1,16 @@
 import { useState } from 'react';
 import './App.css';
 
-function Square( {onSquareClick, backgroundColor }) {
+function Square( {onSquareClick, backgroundColor} ) {
   return (
-    <div className="square" onMouseOver={onSquareClick} style={{backgroundColor}} >
-    </div>
+    <button className="square" onMouseOver={onSquareClick} style={{backgroundColor}} >
+    </button>
   );
 }
 
 function randomColor() {
   return "#" + Math.random().toString(16).slice(2,8);
-} //#58FEGD - color
+}
 
 export default function Board() {
   const [squares, setSquares] = useState(Array(28).fill(null));
